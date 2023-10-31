@@ -160,7 +160,7 @@ After multiple trying we can get the flag.
 ![Weird numbers](store/weird_numbers.png)
 
 This crypto challenge uses the [Okamoto-Uchimaya cryptosystem](https://en.wikipedia.org/wiki/Okamoto%E2%80%93Uchiyama_cryptosystem).
-First, notice that the prime generation is weak _p_ and _q_ will be very close to each other, and we can recover them by taking the cube root of _n_ and bruteforcing neighbouring numbers to find the primes. So we can apply the decryption process described in the Okamoto-Uchimaya cryptosystem article linked above. Solve this challenge with this script
+First, notice that the prime generation is weak _p_ and _q_ will be very close to each other, and we can recover them by taking the cube root of _n_ and bruteforcing neighbouring numbers to find the primes. So we can apply the decryption process described in the Okamoto-Uchimaya cryptosystem article linked above. Solve this challenge with [this script](store/solve_weird.py)
  
 ```py
 '''
@@ -192,4 +192,12 @@ print(long_to_bytes(m))
 ```
 
 **Flag: acdfctf{Tatsuaki_Shigenori_uncommon_cryptosystem}**
+</details>
+
+<details>
+<summary>Misc</summary>
+
+### Rusty Rickets
+Coming soon.
+
 </details>
