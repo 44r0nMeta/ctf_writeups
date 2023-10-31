@@ -16,7 +16,6 @@ I'll give the solutions to some of the challenges that I solved but you can chec
 - Cyber 101
 - Chakra
 - Weird_Numbers
-- Red Sea
 ##### Misc
 - Rusty Rickets
 ##### OSINT
