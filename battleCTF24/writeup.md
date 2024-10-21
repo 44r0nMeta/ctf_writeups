@@ -169,5 +169,21 @@ io.interactive()
 ![image](./assets/13.png)
 
 ```
-Flag: battleCTF{Libc_J0P_b4s1c_000_bc8a769d91ae062911c32829608e7d547a3f54bd18c7a7c2f5cc52bd}
+Flag: battleCTF/home/meta/Pictures/Screenshots/Screenshot from 2024-10-21 21-32-14.png{Libc_J0P_b4s1c_000_bc8a769d91ae062911c32829608e7d547a3f54bd18c7a7c2f5cc52bd}
+```
+
+## Jenkins (Web)
+
+![image](./assets/14.png)
+
+In this challenge Jenkins is version 2.441 and vulnerable to CVE-2024-23897
+
+By using *jenkins-cli.jar* utils we able read local file on server
+
+Flag location was guessy but we find it in /etc
+
+![image](./assets/15.png)
+
+```
+Flag: battleCTF{I_Tr4vEl_T0_battleCTF_3bb8a0f488816fc377fc0cde93f2e0b1d4c1f9fda09dfaa4962d44d5a09f8fdb}
 ```
